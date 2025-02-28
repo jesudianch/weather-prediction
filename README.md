@@ -23,24 +23,7 @@ The goal of this project is to develop an accurate rainfall prediction model tha
 - matplotlib
 - seaborn
 - xgboost (optional)
-
-## Project Structure
-
-weather-prediction/
-├── data/
-│   ├── raw/                   # Original, immutable data
-│   └── processed/             # Cleaned and preprocessed data
-├── notebooks/
-│   ├── 1_data_exploration.ipynb    # Initial data analysis
-│   ├── 2_feature_engineering.ipynb # Feature creation and selection
-│   └── 3_model_training.ipynb      # Model development and evaluation
-├── src/
-│   ├── data_preprocessing.py       # Data cleaning functions
-│   ├── feature_engineering.py      # Feature creation pipeline
-│   └── model.py                    # Model training and evaluation
-├── requirements.txt                # Project dependencies
-└── README.md                       # Project documentation
-
+  
 ## Methodology
 
 ### 1. Data Preprocessing
